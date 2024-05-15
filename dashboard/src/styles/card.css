@@ -1,0 +1,80 @@
+.card--container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .card--title {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .card--cover {
+    font-size: 2rem;
+  }
+  
+  .cases-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 50px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+  }
+  
+  .cases-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-bottom: 50px;
+  }
+  
+  .cases-popup-container {
+    width: 300px;
+  }
+  
+  .cases-popup-inputs input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+  button {
+    padding: 10px;
+    width: 100px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    background: rgb(175, 175, 221);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(47, 47, 121);
+    color: white;
+}
+  
